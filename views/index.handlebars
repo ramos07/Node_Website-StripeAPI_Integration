@@ -1,0 +1,30 @@
+<section class="py-2">
+    <div class="row">
+        <div class="col-md-6 text-center">
+            <h1 class="display-3 mt-3 pt-5">
+                Get the best deals and finds on sneakers.
+            </h1>
+            <p class="lead">Don't hesitate and get the best deals NOW!</p>
+            <form action="/charge" method="POST">
+                <script
+                    src="https://checkout.stripe.com/checkout.js"
+                    class="stripe-button"
+                    data-key="{{stripePublishableKey}}"
+                    data-amount="25000"
+                    data-name="Jordan 11 Retro"
+                    data-description="Size 11"
+                    data-image="/img/marketplace.png"
+                    data-locale="auto"
+                ></script>
+                <script>
+                    //Hide default stripe button to add your own
+                    document.getElementsByClassName('stripe-button-el')[0].style.display = 'none';
+                </script>
+                <button type="submit" class="btn btn-outline-dark text-white btn-lg">Buy for $250</button>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <img src="/img/jordan11.png" alt="" class="img-fluid">
+        </div>
+    </div>
+</section>
