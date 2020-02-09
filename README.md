@@ -1,8 +1,12 @@
 # Sales Site
-Created using the following:
+Note: There are still some minor issues with placement of certain components(ex. shoes image).
+**Created using the following:**
 - Node.js
 - Express.js
 - Handlebars.js
 - Stripe API
 - HMTL 
 - Bootstrap4
+---
+**Screenshots of the webpage**
+![alt HomePage](/screenshots/homepage.PNG "HomePage")
