@@ -1,2 +1,8 @@
 # Sales Site
-Created a sales site using Node.js and Stripe.
+Created using the following:
+- Node.js
+- Express.js
+- Handlebars.js
+- Stripe API
+- HMTL 
+- Bootstrap4
